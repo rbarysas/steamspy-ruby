@@ -1,6 +1,6 @@
 # steamspy-ruby [![Build Status](https://travis-ci.org/rbrs/steamspy-ruby.svg?branch=master)](https://travis-ci.org/rbrs/steamspy-ruby)
 
-A Ruby interface to the SteamSpy API.
+A Ruby interface to the [SteamSpy](http://steamspy.com/) API.
 
 ### Installation
 
