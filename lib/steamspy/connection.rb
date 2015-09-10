@@ -17,7 +17,11 @@ module SteamSpy
 
     def initialize(status, data)
       @status = status
-      @data = data
+      begin
+        @data = JSON.parse(data)
+      rescue
+        @data = {}
+      end
     end
   end
 end
