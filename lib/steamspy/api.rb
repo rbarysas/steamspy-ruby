@@ -1,7 +1,7 @@
 module SteamSpy
   class Api
     def initialize
-      @connection = Connection.new unless @connection
+      @connection ||= Connection.new
     end
 
     def appdetails(appid)

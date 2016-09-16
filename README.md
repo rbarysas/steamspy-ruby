@@ -1,6 +1,6 @@
-# steamspy-ruby [![Build Status](https://travis-ci.org/rbrs/steamspy-ruby.svg?branch=master)](https://travis-ci.org/rbrs/steamspy-ruby)
+# steamspy-ruby [![Build Status](https://travis-ci.org/rbarysas/steamspy-ruby.svg?branch=master)](https://travis-ci.org/rbarysas/steamspy-ruby)
 
-A Ruby interface to the [SteamSpy](http://steamspy.com/) API.
+A Ruby interface to the [SteamSpy](https://steamspy.com/) API.
 
 ### Installation
 
@@ -50,7 +50,7 @@ ss = steamspy.top100owned
 ss = steamspy.all
 ```
 
-More information about API could be found in the [official website](http://steamspy.com/api.php).
+More information about API could be found in the [official website](https://steamspy.com/api.php).
 
 ### License
 

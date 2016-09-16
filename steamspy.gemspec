@@ -9,13 +9,13 @@ Gem::Specification.new do |gem|
   gem.license     = "MIT"
 
   gem.author   = "Rolandas Barysas"
-  gem.email    = "hello@rbrs.io"
-  gem.homepage = "https://github.com/rbrs/steamspy-ruby"
+  gem.email    = "rb@atomicflow.org"
+  gem.homepage = "https://github.com/rbarysas/steamspy-ruby"
 
   gem.files = Dir['README*', 'LICENSE', 'lib/**/*']
 
-  gem.add_development_dependency 'rake', '~> 10'
-  gem.add_development_dependency 'minitest', '~> 5'
+  gem.add_development_dependency 'rake', '~> 11.2'
+  gem.add_development_dependency 'minitest', '~> 5.9'
 
-  gem.add_dependency 'httparty', '~> 0.13'
+  gem.add_dependency 'httparty', '~> 0.14'
 end
