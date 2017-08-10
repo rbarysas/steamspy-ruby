@@ -14,8 +14,8 @@ Gem::Specification.new do |gem|
 
   gem.files = Dir['README*', 'LICENSE', 'lib/**/*']
 
-  gem.add_development_dependency 'rake', '~> 11.2'
-  gem.add_development_dependency 'minitest', '~> 5.9'
+  gem.add_development_dependency 'rake', '~> 12'
+  gem.add_development_dependency 'minitest', '~> 5.10'
 
-  gem.add_dependency 'httparty', '~> 0.14'
+  gem.add_dependency 'httparty', '~> 0.15'
 end
